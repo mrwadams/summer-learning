@@ -38,10 +38,10 @@ def maths_page():
             col1, col2 = st.columns(2)
             with col1:
                 st.markdown("**📏 Perimeter**")
-                st.markdown("[BBC Bitesize: Calculating Perimeter](https://www.bbc.co.uk/bitesize/guides/z3g9jxs/revision/1)")
+                st.markdown("[BBC Bitesize: Calculating Perimeter](https://www.bbc.co.uk/bitesize/articles/zj6ff82)")
             with col2:
                 st.markdown("**➡️ Translation**")
-                st.markdown("[BBC Bitesize: Translation](https://www.bbc.co.uk/bitesize/topics/z2dqrwx/articles/z76w3k7)")
+                st.markdown("[BBC Bitesize: Translation](https://www.bbc.co.uk/bitesize/articles/zk7dg7h#z6fxfdm)")
     
     # Working with Decimals
     with st.expander("🔢 Working with Decimals", expanded=False):
@@ -65,10 +65,10 @@ def maths_page():
             col1, col2 = st.columns(2)
             with col1:
                 st.markdown("**🔄 Comparing Decimals**")
-                st.markdown("[BBC Bitesize: Comparing and Ordering](https://www.bbc.co.uk/bitesize/articles/z68mbqt)")
+                st.markdown("[BBC Bitesize: Comparing and Ordering](https://www.bbc.co.uk/bitesize/articles/zgn7wnb)")
             with col2:
                 st.markdown("**➕➖ Add & Subtract**")
-                st.markdown("[BBC Bitesize: Decimal Operations](https://www.bbc.co.uk/bitesize/topics/znjqtfr/articles/z9y9g7h)")
+                st.markdown("[BBC Bitesize: Decimal Operations](https://www.bbc.co.uk/bitesize/articles/zk9bg7h)")
     
     # Multiplication
     with st.expander("✖️ Multiplying 2-digit by 2-digit numbers", expanded=False):
@@ -85,7 +85,7 @@ def maths_page():
                 <p style='color: #7F1D1D; font-size: 0.9rem;'>Break numbers into parts</p>
             </div>
             """, unsafe_allow_html=True)
-            st.markdown("[Learn Partitioning →](https://www.bbc.co.uk/bitesize/articles/zfgm6v4)")
+            st.markdown("[Learn Partitioning →](https://www.bbc.co.uk/bitesize/articles/zyk8pbk)")
         
         with col2:
             st.markdown("""
@@ -94,7 +94,7 @@ def maths_page():
                 <p style='color: #854D0E; font-size: 0.9rem;'>Use area model</p>
             </div>
             """, unsafe_allow_html=True)
-            st.markdown("[Learn Grid Method →](https://www.bbc.co.uk/bitesize/articles/z4vrKmn)")
+            st.markdown("[Learn Grid Method →](https://www.bbc.co.uk/bitesize/guides/zkqf6g8/revision/2)")
         
         with col3:
             st.markdown("""
@@ -103,7 +103,7 @@ def maths_page():
                 <p style='color: #166534; font-size: 0.9rem;'>Formal written method</p>
             </div>
             """, unsafe_allow_html=True)
-            st.markdown("[Learn Long Multiplication →](https://www.bbc.co.uk/bitesize/topics/z36tyrd/articles/z398nrd)")
+            st.markdown("[Learn Long Multiplication →](https://www.bbc.co.uk/bitesize/articles/z4chnrd)")
     
     # Time Calculations
     with st.expander("⏰ Calculating with Time", expanded=False):
@@ -123,7 +123,7 @@ def maths_page():
         
         with tab2:
             st.markdown("#### 📚 Helpful Resources")
-            st.markdown("[BBC Bitesize: Finding Durations of Time](https://www.bbc.co.uk/bitesize/articles/zbc2scw)")
+            st.markdown("[BBC Bitesize: Finding Durations of Time](https://www.bbc.co.uk/bitesize/articles/zpxbydm)")
     
     # Times Tables
     with st.expander("🎲 Times Tables Fun", expanded=False):
