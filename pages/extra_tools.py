@@ -18,7 +18,7 @@ def extra_tools_page():
     
     with col1:
         st.markdown("""
-        <div style='background-color: #DBEAFE; padding: 2rem; border-radius: 12px; height: 280px;'>
+        <div style='background-color: #DBEAFE; padding: 2rem; border-radius: 12px; margin-bottom: 1rem;'>
             <h2 style='color: #1E40AF; margin-top: 0;'>📺 ClickView</h2>
             <p style='color: #3730A3; margin-bottom: 1.5rem;'>
                 Your school subscribes to ClickView, which has tons of great educational videos on almost any subject.
@@ -26,7 +26,7 @@ def extra_tools_page():
             <p style='color: #1E40AF; font-weight: bold; margin-bottom: 1rem;'>
                 ✅ Log in with your school email
             </p>
-            <p style='color: #3730A3;'>
+            <p style='color: #3730A3; margin-bottom: 0;'>
                 Perfect for visual learners who love watching videos to understand concepts better!
             </p>
         </div>
@@ -36,7 +36,7 @@ def extra_tools_page():
     
     with col2:
         st.markdown("""
-        <div style='background-color: #E9D5FF; padding: 2rem; border-radius: 12px; height: 280px;'>
+        <div style='background-color: #E9D5FF; padding: 2rem; border-radius: 12px; margin-bottom: 1rem;'>
             <h2 style='color: #6B21A8; margin-top: 0;'>✏️ Spellzone</h2>
             <p style='color: #7C3AED; margin-bottom: 1.5rem;'>
                 A great tool for practicing your spellings and becoming a spelling champion!
@@ -44,7 +44,7 @@ def extra_tools_page():
             <p style='color: #6B21A8; font-weight: bold; margin-bottom: 1rem;'>
                 🏆 Features games and challenges
             </p>
-            <p style='color: #7C3AED;'>
+            <p style='color: #7C3AED; margin-bottom: 0;'>
                 Practice tricky words, learn spelling rules, and track your progress over time.
             </p>
         </div>
@@ -54,7 +54,7 @@ def extra_tools_page():
     
     with col3:
         st.markdown("""
-        <div style='background-color: #D1FAE5; padding: 2rem; border-radius: 12px; height: 280px;'>
+        <div style='background-color: #D1FAE5; padding: 2rem; border-radius: 12px; margin-bottom: 1rem;'>
             <h2 style='color: #065F46; margin-top: 0;'>🦉 Duolingo</h2>
             <p style='color: #047857; margin-bottom: 1.5rem;'>
                 We have a family subscription! Learn new languages with fun, bite-sized lessons and games.
@@ -62,7 +62,7 @@ def extra_tools_page():
             <p style='color: #065F46; font-weight: bold; margin-bottom: 1rem;'>
                 🌍 Learn Spanish, French, or any language!
             </p>
-            <p style='color: #047857;'>
+            <p style='color: #047857; margin-bottom: 0;'>
                 Just 5-10 minutes a day can help you become fluent in a new language!
             </p>
         </div>
