@@ -203,7 +203,7 @@ def science_page():
         """, unsafe_allow_html=True)
     
     with experiment_col2:
-        st.image("https://placehold.co/300x200/FEF3C7/92400E?text=Pulley+Diagram", use_column_width=True)
+        st.image("images/pulley.jpg", use_container_width=True, caption="Simple Pulley System")
     
     # Footer
     st.markdown("""
